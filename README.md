@@ -4,7 +4,7 @@ A production-grade C++ toolchain that dynamically alters image aspect ratios wit
 
 ---
 
-## 🖼️ Visual Showcase & Contrast Comparison
+## Visual Showcase & Contrast Comparison
 
 Use this section to demonstrate the power of content-aware scaling versus traditional scaling. Traditional scaling squishes or stretches objects, while this engine removes insignificant background data.
 
@@ -14,21 +14,21 @@ Use this section to demonstrate the power of content-aware scaling versus tradit
 | **Dimensions:** 2400*1352 | **Dimensions:**  2300*1352(-100 Seams) |
 | **Original Size:** 3820kb | **New Size:** 717kb|
 
-> 💡 **Notice the Contrast:** When you upload your images here, you will observe that high-contrast subjects (like people, buildings, or distinct foreground items) retain their exact structural dimensions, while flat, repetitive background pixels (like skies, empty fields, or blurred walls) are dynamically swallowed up.
+>  **Notice the Contrast:** When you upload your images here, you will observe that high-contrast subjects (like people, buildings, or distinct foreground items) retain their exact structural dimensions, while flat, repetitive background pixels (like skies, empty fields, or blurred walls) are dynamically swallowed up.
 
 ---
 
-## 🛠️ Tech Stack & Requirements
+##  Tech Stack & Requirements
 
 * **Language:** C++17 (Utilizing native STL vectors, memory management primitives, and strict encapsulation).
 * **Build Configuration Tool:** CMake (Minimum 3.16 required).
-* **External Framework Dependency:** OpenCV 4.x (`core` for custom optimized matrix containers and `imgcodecs` for decoding/encoding physical files).
+* **External Framework Dependency:** OpenCV 4.12 (`core` for custom optimized matrix containers and `imgcodecs` for decoding/encoding physical files).
 * **Target Operating Platform:** Windows 10/11 x64.
 * **Compiler Target:** Microsoft Visual C++ (MSVC via Visual Studio Community Build Tools) running native AMD64 architectures.
 
 ---
 
-## 🧠 Core Algorithmic Architecture
+##  Core Algorithmic Architecture
 
 The system operates like a mathematical assembly line, collapsing an exponential pathfinding search space into a deterministic linear operation using five core computer vision and data structure concepts:
 
@@ -90,7 +90,7 @@ SeamCarvingEngine/
     ├── ImageHandler.cpp           # Type conversions (cv::Mat to standard vector)
     ├── EnergyMap.cpp              # Dual-gradient matrix mapping
     └── SeamSolver.cpp             # Forward DP loops and pointer swaps
-
+```
 ---
 
 ## Author : zen-code11
