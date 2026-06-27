@@ -90,3 +90,7 @@ SeamCarvingEngine/
     ├── ImageHandler.cpp           # Type conversions (cv::Mat to standard vector)
     ├── EnergyMap.cpp              # Dual-gradient matrix mapping
     └── SeamSolver.cpp             # Forward DP loops and pointer swaps
+
+---
+
+## Author : zen-code11
