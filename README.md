@@ -11,7 +11,8 @@ Use this section to demonstrate the power of content-aware scaling versus tradit
 | Original Image (`input.jpg`) | Resized Image (`output.jpg`) |
 | :---: | :---: |
 | ![Original Image](./assets/input.jpg) | ![Resized Image](./assets/output.jpg) |
-| **Dimensions:** e.g., 3920px Width | **Dimensions:** e.g., 3820px Width (-100 Seams) |
+| **Dimensions:** 2400*1352 | **Dimensions:**  2300*1352(-100 Seams) |
+| **Original Size:** 3820kb | **New Size:** 717kb|
 
 > 💡 **Notice the Contrast:** When you upload your images here, you will observe that high-contrast subjects (like people, buildings, or distinct foreground items) retain their exact structural dimensions, while flat, repetitive background pixels (like skies, empty fields, or blurred walls) are dynamically swallowed up.
 
