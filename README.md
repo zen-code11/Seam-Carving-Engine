@@ -10,7 +10,7 @@ Use this section to demonstrate the power of content-aware scaling versus tradit
 
 | Original Image (`input.jpg`) | Resized Image (`output.jpg`) |
 | :---: | :---: |
-| `![Original Image PlaceHolder](https://placehold.co/400x300?text=Upload+Your+Input+Image+Here)` | `![Resized Image PlaceHolder](https://placehold.co/300x300?text=Upload+Your+Output+Image+Here)` |
+| ![Original Image](./assets/input.jpg) | ![Resized Image](./assets/output.jpg) |
 | **Dimensions:** e.g., 3920px Width | **Dimensions:** e.g., 3820px Width (-100 Seams) |
 
 > 💡 **Notice the Contrast:** When you upload your images here, you will observe that high-contrast subjects (like people, buildings, or distinct foreground items) retain their exact structural dimensions, while flat, repetitive background pixels (like skies, empty fields, or blurred walls) are dynamically swallowed up.
